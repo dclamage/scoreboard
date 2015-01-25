@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:background="@drawable/tablecellbackground"
+          android:layout_marginBottom="15dp"
+          android:clickable="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Name"
+            android:id="@+id/playerName"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:textSize="26dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="0"
+            android:id="@+id/playerScore"
+            android:layout_marginRight="10dp"
+            android:textSize="26dp"
+            android:gravity="right"/>
+
+</TableRow>
